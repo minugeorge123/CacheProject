@@ -29,7 +29,7 @@ public static DynamicCache dc= new DynamicCache(2);
 	{
 	
           System.out.println("------------------------------------\n        rev 1.2\n------------------------------------");
-
+          System.out.println("viewed");
            do{
               
             System.out.println("1. Static Cache... \n2. Dynamic Cache... \n3. FIFO Cache... \n4. LRU Cache\n5. Exit. \n\n Enter your choice:- ");
