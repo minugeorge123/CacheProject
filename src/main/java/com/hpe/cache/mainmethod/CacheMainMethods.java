@@ -29,6 +29,7 @@ public static DynamicCache dc= new DynamicCache(2);
 	{
 	
           System.out.println("------------------------------------\n        rev 1.3\n------------------------------------");
+	System.out.println("release 1.4");//release 1.4
 
            do{
               
