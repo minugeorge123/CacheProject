@@ -1,5 +1,5 @@
 package com.hpe.cache.staticcahe;
-import statis org.junit.Assert.*;
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class StaticCacheTest
@@ -9,7 +9,8 @@ public class StaticCacheTest
         public void test() {
        StaticCache sc=new StaticCache();
 	sc.addCache(1,"aaaa");
-        sc.addCache(2,"bbbb");                                                                                                       sc.addCache(3,"cccc");
+        sc.addCache(2,"bbbb");
+        sc.addCache(3,"cccc");
         sc.addCache(4,"dddd");
                                                                                                       
          assertEquals("cccc",sc.getCache(3));
